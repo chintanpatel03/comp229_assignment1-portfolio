@@ -1,0 +1,85 @@
+<!--  // created by Chintan Patel at 20230927 20:00.
+// 
+// Student ID - 301361215-->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- CSS -->
+  <link rel="stylesheet" href="Scripts/main.css" />
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+    <main class="container c-container mt-5 mb-5 pb-5">
+      <h1 class="display-4 text-center">My Services</h1>
+      <section class="row mt-5 justify-content-center mx-0">
+        <div class="card pt-4 col-lg-3">
+          <img
+            src="/img/MD1.png"
+            class="card-img-top object-fit-contain"
+            alt="Lab Report"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Deep Learning Model Development</h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+          <img
+            src="/img/AT.png"
+            class="card-img-top object-fit-contain"
+            alt="Web Resume (v0.2)"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Data Annotation and Labeling</h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+          <img
+            src="/img/P.png"
+            class="card-img-top object-fit-contain"
+            alt="Text-Parser-Chrome-Ext"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Performance Optimization</h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 mt-lg-5">
+          <img
+            src="/img/TR.png"
+            class="card-img-top object-fit-contain"
+            alt="Text-Parser-Chrome-Ext"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Training and Workshops</h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 mt-lg-5 ms-lg-5">
+          <img
+            src="/img/contact.png"
+            class="card-img-top object-fit-contain"
+            alt="Text-Parser-Chrome-Ext"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Consultation and Strategy</h5>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>
